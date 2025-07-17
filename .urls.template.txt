@@ -1,0 +1,3 @@
+"[https://mi.dominio.dev.com/](https://mi.dominio.dev.com/)*",
+"[https://otro.qa.dominio.org/](https://otro.qa.dominio.org/)*",
+"http://localhost:8080/*"
