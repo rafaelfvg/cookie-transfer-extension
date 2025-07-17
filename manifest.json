@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Transferencia de Cookies",
+  "version": "1.1",
+  "description": "Extrae cookies de una pestaña y las aplica en otra.",
+  "permissions": ["activeTab", "scripting", "storage", "cookies"],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
